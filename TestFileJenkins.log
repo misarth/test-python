@@ -1,0 +1,217 @@
+
+Running Place&Route tool:
+ - Netlist     : 
+ - SDC file    : 
+ - Device      : 
+ - Pads assign.: default
+ - Algorithm   : path_timing_driven
+ - Seed        : 20
+ - PnR retry   : 3
+ - Output dir. : 
+ - User Code   : 
+
+Started: Tue Jun  1 11:00:14 2021
+
+-------------------------------------------------
+ Constraints transformation for VPR...
+
+ Converting verilog input to BLIF...
+  
+Verilog2Blif parameters :
+    | -vlog      
+    | -blif      flu_core_content.blif
+    | -cfgpm     flu_cells_cfg.pm
+Loading design...
+Analysing design content ...
+  Parsing netlist elements
+  Gathering instances parameters...
+  Preparing BLIF library..
+  Creating BLIF instances...
+  Configuring BLIF instances...
+  Decoding BLIF parameters...
+  Flattening design ...
+    Processing module : 
+    Propagating out ports constants in design ...
+      Optimize feedthrough in module
+      Propagating constants in module
+        Processing pass #1
+          Found out port constant : pready_slv~0 = pready_slv~0
+          Found out port constant : user_int = user_int
+          Found out port constant : dpram_add~10 = dpram_add~10
+          Found out port constant : dpram_add~9 = dpram_add~9
+          Found out port constant : dpram_add~8 = dpram_add~8
+          Found out port constant : dpram_add~7 = dpram_add~7
+          Found out port constant : dpram_add~6 = dpram_add~6
+          Found out port constant : dpram_add~5 = dpram_add~5
+          Found out port constant : dpram_add~4 = dpram_add~4
+          Found out port constant : dpram_add~3 = dpram_add~3
+          Found out port constant : dpram_add~1 = dpram_add~1
+          Found out port constant : dpram_add~0 = dpram_add~0
+          Found out port constant : dpram_di~31 = dpram_di~31
+          Found out port constant : dpram_di~30 = dpram_di~30
+          Found out port constant : dpram_di~29 = dpram_di~29
+          Found out port constant : dpram_di~28 = dpram_di~28
+          Found out port constant : dpram_di~27 = dpram_di~27
+          Found out port constant : dpram_di~26 = dpram_di~26
+          Found out port constant : dpram_di~25 = dpram_di~25
+          Found out port constant : dpram_di~24 = dpram_di~24
+          Found out port constant : dpram_di~23 = dpram_di~23
+          Found out port constant : dpram_di~22 = dpram_di~22
+          Found out port constant : dpram_di~21 = dpram_di~21
+          Found out port constant : dpram_di~20 = dpram_di~20
+          Found out port constant : dpram_di~19 = dpram_di~19
+          Found out port constant : dpram_di~18 = dpram_di~18
+          Found out port constant : dpram_di~17 = dpram_di~17
+          Found out port constant : dpram_di~16 = dpram_di~16
+          Found out port constant : mpc_periph_nb~6 = mpc_periph_nb~6
+          Found out port constant : mpc_periph_nb~4 = mpc_periph_nb~4
+          Found out port constant : mpc_periph_nb~3 = mpc_periph_nb~3
+          Found out port constant : mpc_periph_nb~2 = mpc_periph_nb~2
+          Found out port constant : mpc_reg_addr~23 = mpc_reg_addr~23
+          Found out port constant : mpc_reg_addr~22 = mpc_reg_addr~22
+          Found out port constant : mpc_reg_addr~21 = mpc_reg_addr~21
+          Found out port constant : mpc_reg_addr~20 = mpc_reg_addr~20
+          Found out port constant : mpc_reg_addr~11 = mpc_reg_addr~11
+          Found out port constant : mpc_reg_addr~10 = mpc_reg_addr~10
+          Found out port constant : mpc_reg_addr~9 = mpc_reg_addr~9
+          Found out port constant : mpc_reg_addr~8 = mpc_reg_addr~8
+          Found out port constant : mpc_reg_addr~4 = mpc_reg_addr~4
+          Found out port constant : mpc_reg_addr~0 = mpc_reg_addr~0
+          Found out port constant : mpc_wdata~31 = mpc_wdata~31
+          Found out port constant : mpc_wdata~30 = mpc_wdata~30
+          Found out port constant : mpc_wdata~29 = mpc_wdata~29
+          Found out port constant : mpc_wdata~28 = mpc_wdata~28
+          Found out port constant : mpc_wdata~27 = mpc_wdata~27
+          Found out port constant : mpc_wdata~26 = mpc_wdata~26
+          Found out port constant : mpc_wdata~25 = mpc_wdata~25
+          Found out port constant : mpc_wdata~24 = mpc_wdata~24
+          Found out port constant : mpc_wdata~23 = mpc_wdata~23
+          Found out port constant : mpc_wdata~22 = mpc_wdata~22
+          Found out port constant : mpc_wdata~21 = mpc_wdata~21
+          Found out port constant : mpc_wdata~20 = mpc_wdata~20
+          Found out port constant : mpc_wdata~19 = mpc_wdata~19
+          Found out port constant : mpc_wdata~18 = mpc_wdata~18
+          Found out port constant : mpc_wdata~17 = mpc_wdata~17
+          Found out port constant : mpc_wdata~16 = mpc_wdata~16
+          Found out port constant : pout~89 = pout~89
+          Found out port constant : pout~88 = pout~88
+          Found out port constant : pout~87 = pout~87
+          Found out port constant : pout~86 = pout~86
+          Found out port constant : pout~85 = pout~85
+          Found out port constant : pout~84 = pout~84
+          Found out port constant : pout~83 = pout~83
+          Found out port constant : pout~82 = pout~82
+          Found out port constant : pout~81 = pout~81
+          Found out port constant : pout~80 = pout~80
+          Found out port constant : pout~79 = pout~79
+          Found out port constant : pout~78 = pout~78
+          Found out port constant : pout~77 = pout~77
+          Found out port constant : pout~76 = pout~76
+          Found out port constant : pout~75 = pout~75
+          Found out port constant : pout~74 = pout~74
+          Found out port constant : pout~73 = pout~73
+          Found out port constant : pout~72 = pout~72
+          Found out port constant : pout~71 = pout~71
+          Found out port constant : pout~70 = pout~70
+          Found out port constant : pout~69 = pout~69
+          Found out port constant : pout~68 = pout~68
+          Found out port constant : pout~67 = pout~67
+          Found out port constant : pout~66 = pout~66
+          Found out port constant : pout~65 = pout~65
+          Found out port constant : pout~64 = pout~64
+          Found out port constant : pout~63 = pout~63
+          Found out port constant : pout~62 = pout~62
+          Found out port constant : pout~61 = pout~61
+          Found out port constant : pout~60 = pout~60
+          Found out port constant : pout~59 = pout~59
+          Found out port constant : pout~58 = pout~58
+          Found out port constant : pout~57 = pout~57
+          Found out port constant : pout~56 = pout~56
+          Found out port constant : pout~55 = pout~55
+          Found out port constant : pout~54 = pout~54
+          Found out port constant : pout~53 = pout~53
+          Found out port constant : pout~52 = pout~52
+          Found out port constant : pout~51 = pout~51
+          Found out port constant : pout~50 = pout~50
+          Found out port constant : pout~49 = pout~49
+          Found out port constant : pout~48 = pout~48
+          Found out port constant : pout~47 = pout~47
+          Found out port constant : pout~46 = pout~46
+          Found out port constant : pout~45 = pout~45
+          Found out port constant : pout~44 = pout~44
+          Found out port constant : pout~43 = pout~43
+          Found out port constant : pout~42 = pout~42
+          Found out port constant : pout~41 = pout~41
+          Found out port constant : pout~40 = pout~40
+          Found out port constant : pout~39 = pout~39
+          Found out port constant : pout~38 = pout~38
+          Found out port constant : pout~37 = pout~37
+          Found out port constant : pout~36 = pout~36
+          Found out port constant : pout~35 = pout~35
+          Found out port constant : pout~34 = pout~34
+          Found out port constant : pout~33 = pout~33
+          Found out port constant : pout~32 = pout~32
+          Found out port constant : pout~31 = pout~31
+          Found out port constant : pout~30 = pout~30
+          Found out port constant : pout~29 = pout~29
+          Found out port constant : pout~28 = pout~28
+          Found out port constant : pout~27 = pout~27
+          Found out port constant : pout~26 = pout~26
+          Found out port constant : pout~25 = pout~25
+          Found out port constant : pout~24 = pout~24
+          Found out port constant : pout~23 = pout~23
+          Found out port constant : pout~22 = pout~22
+          Found out port constant : pout~20 = pout~20
+          Found out port constant : pout~19 = pout~19
+          Found out port constant : pout~18 = pout~18
+          Found out port constant : pout~17 = pout~17
+          Found out port constant : pout~16 = pout~16
+          Found out port constant : pout~15 = pout~15
+          Found out port constant : pout~14 = pout~14
+          Found out port constant : pout~13 = pout~13
+          Found out port constant : pout~12 = pout~12
+          Found out port constant : pout~11 = pout~11
+          Found out port constant : pout~10 = pout~10
+          Found out port constant : pout~9 = pout~9
+          Found out port constant : pout~8 = pout~8
+          Found out port constant : pout~7 = pout~7
+          Found out port constant : pout~6 = pout~6
+          Found out port constant : pout~5 = pout~5
+          Found out port constant : pout~4 = pout~4
+          Found out port constant : pout~3 = pout~3
+          Found out port constant : pout~2 = pout~2
+          Found out port constant : pout~1 = pout~1
+          Found out port constant : pout~0 = pout~0
+          Found out port constant : trig_sources~14 = trig_sources~14
+          Found out port constant : trig_sources~13 = trig_sources~13
+          Found out port constant : trig_sources~12 = trig_sources~12
+          Found out port constant : trig_sources~11 = trig_sources~11
+  Propagating BLIF parameters...
+  Generating design data...
+  
+  -------------------------------------------------
+  
+   Executing Place&Route...
+    - Iteration  1/3  started.
+    - Iteration  2/3  started.
+    - Iteration  3/3  started.
+    - Iteration  3/3  ended (15s).
+    - Iteration  1/3  ended (16s).
+    - Iteration  2/3  ended (18s).
+ 
+  -------------------------------------------------
+  
+  +----------------------------------------------+
+  |          Device Utilization Summary          |
+  +----------------------------------------------+
+  Logic Utilization       : %Utilization (Used/Available)
+   - Number of LUTs       :   73.82% (3366/4560, 84 transparent LUTs)
+   - Number of Flip-Flops :   27.72% (1264/4560)
+   - Number of CLBs       :   77.37% ( 294/380 )
+  Note: transparent LUTs are only used to connect BLE input to FF input.
+  
+  Critical Path Summary:
+   - Maximum Frequency   :  11.03 MHz (10.00 MHz requested)
+  -------------------------------------------------
+  
+  Ended: Tue Jun  1 11:00:45 2021
