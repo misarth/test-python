@@ -205,7 +205,7 @@ Analysing design content ...
   |          Device Utilization Summary          |
   +----------------------------------------------+
   Logic Utilization       : %Utilization (Used/Available)
-   - Number of LUTs       :   73.82% (3366/4560, 84 transparent LUTs)
+   - Number of LUTs       :   80.00% (3366/4560, 84 transparent LUTs)
    - Number of Flip-Flops :   27.72% (1264/4560)
    - Number of CLBs       :   77.37% ( 294/380 )
   Note: transparent LUTs are only used to connect BLE input to FF input.
