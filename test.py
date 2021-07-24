@@ -9,4 +9,4 @@ def Extract_data():
     return s
 
 def test_function():
-    assert f() == "80.00%"
+    assert Extract_data() == "80.00%"
