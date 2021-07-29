@@ -211,7 +211,7 @@ Analysing design content ...
   Note: transparent LUTs are only used to connect BLE input to FF input.
   
   Critical Path Summary:
-   - Maximum Frequency   :  8.00 MHz (10.00 MHz requested)
+   - Maximum Frequency   :  11.03 MHz (10.00 MHz requested)
   -------------------------------------------------
   
   Ended: Tue Jun  1 11:00:45 2021
