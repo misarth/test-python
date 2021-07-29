@@ -12,7 +12,7 @@ def delai():
 
 def verification():
     i=delai()
-    assert 4 == 4
+    assert int(i[0]) < 20
    
         
                 
