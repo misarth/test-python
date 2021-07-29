@@ -12,6 +12,6 @@ def délai_itération():
 
 def verification():
     for i in délai_itération():
-        assert i<=20
+        assert int(i)<=20
                 
         
