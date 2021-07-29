@@ -7,7 +7,7 @@ def delai():
             if "ended" in i:
                 j= i.index('(')
                 L.append(i[j+1:j+3])
-    print(L)
+    fichier.close()
     return L
 
 def verification():
