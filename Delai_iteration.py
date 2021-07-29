@@ -11,7 +11,8 @@ def delai():
     return L
 
 def test():
-    assert (int(delai()[0])<20)    
+    for i in delai()
+    assert (int(i)<20)    
    
         
                 
