@@ -1,18 +1,11 @@
-def delai():
+def nbre_ligne():
     fichier = open("TestFileJenkins.log",'r')
     texte = fichier.readlines()
-    L=[]
-    for i in texte:
-        if "Iteration" in i:
-            if "ended" in i:
-                j= i.index('(')
-                L.append(i[j+1:j+3])
     fichier.close()
-    return L
+    return len(texte)
 
-def verification():
-    i=delai()
-    assert int(i[0]) < 20
+def test():
+    assert nbre_ligne()<= 100
    
         
                 
