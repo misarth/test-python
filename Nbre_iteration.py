@@ -8,6 +8,6 @@ def nbre_iteration():
     fichier.close()
     return(n/2)
 
-def verification():
+def test():
     assert (nbre_iteration()<4.0)
             
