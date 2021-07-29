@@ -9,5 +9,5 @@ def nbre_iteration():
     return(int(n/2))
 
 def verification():
-    assert (nbre_iteration()<=3)
+    assert (nbre_iteration()<4)
             
