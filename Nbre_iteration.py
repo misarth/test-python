@@ -6,8 +6,8 @@ def nbre_iteration():
         if "Iteration" in i:
             n = n + 1
     fichier.close()
-    return(int(n/2))
+    return(n/2)
 
 def verification():
-    assert (nbre_iteration()<4)
+    assert (nbre_iteration()<4.0)
             
