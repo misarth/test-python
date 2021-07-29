@@ -5,8 +5,9 @@ def max_freq():
         if "Maximum Frequency" in i:
             j= i.index(':')
             s=i[j+3:j+8]
+    fichier.close()        
     return s
 
-def verification():
-    assert float(max_freq())<= 10.00
+def test():
+    assert (float(max_freq())<= 10.00)
             
