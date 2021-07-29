@@ -1,4 +1,4 @@
-def délai_itération():
+def delai_iteration():
     fichier = open("TestFileJenkins.log",'r')
     texte = fichier.readlines()
     L=[]
@@ -11,7 +11,7 @@ def délai_itération():
     return L
 
 def verification():
-    for i in délai_itération():
+    for i in delai_iteration():
         assert int(i)<=20
                 
                 
