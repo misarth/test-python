@@ -5,10 +5,9 @@ def nbre_iteration():
     for i in texte:
         if "Iteration" in i:
             n = n + 1
+    fichier.close()
     return(int(n/2))
 
-nbre_iteration()
-
 def verification():
-    assert nbre_iteration() <= 3
+    assert (nbre_iteration()<=3)
             
